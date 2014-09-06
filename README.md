@@ -1,4 +1,12 @@
-# chef-julialang(WIP)
+# chef-julialang(WIP): A Chef Cookbook to install Julialang.
 
-TODO: Enter the cookbook description here.
+## Compatibility
+
+- debian
+- ubuntu
+
+## Depedencies
+
+- apt, '~> 2.5.3'
+
 

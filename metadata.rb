@@ -6,3 +6,7 @@ description      'Installs/Configures chef-julialang'
 long_description 'Installs/Configures chef-julialang'
 version          '0.1.0'
 
+supports 'debian'
+supports 'ubuntu'
+
+depends 'apt', '~> 2.5.3'

@@ -27,4 +27,5 @@ when 'debian', 'ubuntu'
     keyserver 'keyserver.ubuntu.com'
     key '3D3D3ACC'
   end
+  package "julia"
 end

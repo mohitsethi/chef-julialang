@@ -28,4 +28,9 @@ when 'debian', 'ubuntu'
     key '3D3D3ACC'
   end
   package "julia"
+
+when 'windows'
+  include_recipe 'chocolatey'
+  chocolatey 'julia-nightly'
+
 end

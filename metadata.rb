@@ -10,3 +10,4 @@ supports 'debian'
 supports 'ubuntu'
 
 depends 'apt', '~> 2.5.3'
+depends 'chocolatey', '~> 0.1.0'

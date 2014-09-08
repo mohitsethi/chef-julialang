@@ -8,6 +8,7 @@ version          '0.1.0'
 
 supports 'debian'
 supports 'ubuntu'
+supports 'windows'
 
 depends 'apt', '~> 2.5.3'
 depends 'chocolatey', '~> 0.1.0'

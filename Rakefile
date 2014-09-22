@@ -2,6 +2,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'rubocop/rake_task'
 require 'foodcritic'
+require 'stove/rake_task'
 
 task :default => [:foodcritic]
 # FoodCritic::Rake::LintTask.new
@@ -17,3 +18,6 @@ $stderr.sync = true
 #
 # # Change to the directory of this file.
 Dir.chdir(File.expand_path('../', __FILE__))
+
+# Add Stove task
+Stove::RakeTask.new

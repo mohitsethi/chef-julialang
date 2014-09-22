@@ -6,6 +6,7 @@ gem 'rake'
 group :test do
   gem 'chefspec', '~> 4.0'
   gem 'foodcritic', '~> 4.0.0'
+  gem 'stove', '~> 3.2.2'
 end
 
 group :integration do

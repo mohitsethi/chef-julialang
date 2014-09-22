@@ -32,5 +32,4 @@ when 'debian', 'ubuntu'
 when 'windows'
   include_recipe 'chocolatey'
   chocolatey 'julia-nightly'
-
 end

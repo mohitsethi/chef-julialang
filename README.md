@@ -4,9 +4,11 @@
 
 - debian
 - ubuntu
+- windows
 
 ## Depedencies
 
 - apt, '~> 2.5.3'
+- chocolatey, '~> 0.1.0'
 
 

@@ -20,6 +20,7 @@
 case node['platform_family']
 when 'debian', 'ubuntu'
   include_recipe 'apt'
+
   apt_repository 'aptjulialang' do
     uri 'http://ppa.launchpad.net/staticfloat/juliareleases/ubuntu'
     distribution node['lsb']['codename']
@@ -27,7 +28,10 @@ when 'debian', 'ubuntu'
     keyserver 'keyserver.ubuntu.com'
     key '3D3D3ACC'
   end
-  package "julia"
+
+  package 'julia' do
+    version default['julialang']['version']
+  end
 
 when 'windows'
   include_recipe 'chocolatey'

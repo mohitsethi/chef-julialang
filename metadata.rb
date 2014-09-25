@@ -4,7 +4,7 @@ maintainer_email 'mohit@sethis.in'
 license          'Apache 2.0'
 description      'Installs/Configures JuliaLang'
 long_description 'Installs/Configuresi JuliaLang'
-version          '0.1.0'
+version          '0.1.1'
 
 supports 'debian'
 supports 'ubuntu'

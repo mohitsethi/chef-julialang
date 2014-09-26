@@ -4,10 +4,10 @@ require 'rubocop/rake_task'
 require 'foodcritic'
 require 'stove/rake_task'
 
-task :default => [:foodcritic]
+task default: [:foodcritic]
 # FoodCritic::Rake::LintTask.new
 FoodCritic::Rake::LintTask.new do |t|
-    t.options = {:fail_tags => ['correctness']}
+  t.options = { fail_tags: ['correctness'] }
 end
 RuboCop::RakeTask.new
 
